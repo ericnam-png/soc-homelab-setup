@@ -38,7 +38,8 @@ The lab includes a Windows-based environment, a SIEM solution (Splunk), and endp
 - Controlled environment for attack simulation and testing  
 
 ## What I Learned
-- How to build a basic SOC-like lab environment  
+- How to build a basic SOC-like lab environment
+- How different Net settings speak to eachother/internet
 - Understanding of log pipelines and data ingestion  
 - SIEM setup and integration with endpoints  
 - Basic search queries to identify suspicious activity  
