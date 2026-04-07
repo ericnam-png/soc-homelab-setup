@@ -22,39 +22,29 @@ The lab includes a Windows-based environment, a SIEM solution (Splunk), and endp
 - Created Win11,Kali using VirtualBox
 - Configured network to let them speak only to each other
 
-### 2. Active Directory Configuration
-- Installed Windows Server
-- Promoted to Domain Controller
-- Created domain users and groups
-- Configured Group Policy
+### 2. Sysmon Deployment
+- Installed Sysmon on Windows
+- Configured logging for process creation and system activity
 
 ### 3. Splunk Installation
 - Installed Splunk Enterprise on Windows
 - Configured data ingestion
 - Enabled receiving logs
 
-### 4. Sysmon Deployment
-- Installed Sysmon on endpoints
-- Configured logging for process creation and system activity
-
-### 5. Log Forwarding
-- Installed Splunk Universal Forwarder
-- Forwarded logs to Splunk server
-
 ## Key Capabilities
 - Centralized log collection via SIEM
 - Endpoint monitoring using Sysmon
-- Active Directory environment for authentication testing
 - Attack simulation readiness
 
 ## What I Learned
 - How to design and build a SOC-like lab environment
 - Understanding of log pipelines and data ingestion
-- Active Directory fundamentals and user management
 - SIEM setup and integration with endpoints
+- Basic search query to indentify malicious activity
 
 ## Next Step
 This environment is used for detection-focused projects, including:
 - Brute-force attack detection
-- Remote command execution (RCE) detection
 - Log-based threat analysis
+- Remote command execution (RCE) detection
+
