@@ -4,7 +4,7 @@
 This project documents a SOC homelab built to simulate endpoint monitoring and log analysis using Splunk and Sysmon.
 
 ## Overview
-The lab includes a Windows-based environment, a SIEM solution (Splunk), and endpoint monitoring using Sysmon. It is designed designed to support security monitoring, log analysis, and attack simulation.
+The lab includes a Windows-based environment, a SIEM solution (Splunk), and endpoint monitoring using Sysmon. It is designed to support security monitoring, log analysis, and attack simulation.
 
 ## Architecture
 - Windows 11 (Target system)
