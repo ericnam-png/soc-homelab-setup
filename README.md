@@ -50,5 +50,23 @@ This environment is used for detection-focused projects, including:
 - Remote command execution (RCE) detection  
 - Log-based threat analysis
 
+## Screenshots(5)
+
+Virtual machines used in the homelab (Windows 11 and Kali Linux).
+<img src="./home_lab_prep/lab_overview.png" width="700">
+
+Internal network configuration to isolate lab traffic.
+<img src="./home_lab_prep/network_configuration.png" width="700">
+
+Successful communication between attacker and target machine.
+<img src="./home_lab_prep/connectivity_test.png" width="700">
+
+Sysmon installed and running for endpoint visibility.
+<img src="./home_lab_prep/sysmon_running.png" width="700">
+
+Splunk configured to ingest and display security logs.
+<img src="./home_lab_prep/splunk_dashboard.png" width="700">
+
+
 ## Reference
 - [MyDFIR YouTube Channel](https://www.youtube.com/@MyDFIR)
