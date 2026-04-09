@@ -1,10 +1,10 @@
 # SOC Homelab Setup
 
 ## Summary
-This project documents the setup of a personal SOC homelab environment built to simulate endpoint monitoring and log analysis using SIEM tools.
+This project documents a SOC homelab built to simulate endpoint monitoring and log analysis using Splunk and Sysmon.
 
 ## Overview
-The lab includes a Windows-based environment, a SIEM solution (Splunk), and endpoint monitoring using Sysmon. It is designed to support security testing, log analysis, and attack simulation.
+The lab includes a Windows-based environment, a SIEM solution (Splunk), and endpoint monitoring using Sysmon. It is designed designed to support security monitoring, log analysis, and attack simulation.
 
 ## Architecture
 - Windows 11 (Target system)
@@ -35,7 +35,8 @@ The lab includes a Windows-based environment, a SIEM solution (Splunk), and endp
 ## Key Capabilities
 - Centralized log collection through Splunk  
 - Endpoint visibility using Sysmon  
-- Controlled environment for attack simulation and testing  
+- Controlled environment for attack simulation and testing
+- Visibility into process execution and system activity
 
 ## What I Learned
 - How to build a basic SOC-like lab environment
