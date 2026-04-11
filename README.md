@@ -7,20 +7,20 @@ This project documents a SOC homelab built to simulate endpoint monitoring and l
 The lab includes a Windows-based environment, a SIEM solution (Splunk), and endpoint monitoring using Sysmon. It is designed to support security monitoring, log analysis, and attack simulation.
 
 ## Architecture
-- Windows 11 (Target system)
+- Windows 10 (Target system)
 - Kali Linux (Attacker machine)
 - Splunk (SIEM)
 - Sysmon (Endpoint monitoring)
 
 ## Environment
 - VirtualBox
-- Windows 11
+- Windows 10
 - Kali Linux
 
 ## Setup Steps
 
 ### 1. Virtual Machine Setup
-- Created Windows 11 and Kali Linux virtual machines using VirtualBox  
+- Created Windows 10 and Kali Linux virtual machines using VirtualBox  
 - Configured an isolated network to allow communication only between the machines  
 
 ### 2. Sysmon Deployment
@@ -53,7 +53,7 @@ This environment is used for detection-focused projects, including:
 
 ## Screenshots(5)
 
-Virtual machines used in the homelab (Windows 11 and Kali Linux).
+Virtual machines used in the homelab (Windows 10 and Kali Linux).
 <img src="./home_lab_prep/lab_overview.png" width="700">
 
 Internal network configuration to isolate lab traffic.
