@@ -59,7 +59,7 @@ Virtual machines used in the homelab (Windows 10 and Kali Linux).
 Internal network configuration to isolate lab traffic.
 <img src="./home_lab_prep/network_configuration.png" width="700">
 
-Successful communication between attacker and target machine.
+Successful communication between target machine and attacker.
 <img src="./home_lab_prep/connectivity_test.png" width="700">
 
 Sysmon installed and running for endpoint visibility.
