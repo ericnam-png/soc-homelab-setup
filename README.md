@@ -2,6 +2,7 @@
 
 ## Summary
 This project documents a SOC homelab built to simulate endpoint monitoring and log analysis using Splunk and Sysmon.
+This is Part 1 of Homelab Project. For detection-lab see 👉 [splunk-detection-lab](https://github.com/ericnam-png/splunk-detection-lab)
 
 ## Overview
 The lab includes a Windows-based environment, a SIEM solution (Splunk), and endpoint monitoring using Sysmon. It is designed to support security monitoring, log analysis, and attack simulation.
